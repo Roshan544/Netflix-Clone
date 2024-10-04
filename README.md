@@ -1,6 +1,7 @@
 NETFIX_CLONE_PROJECT
 
 Overview
+
 This project is a demo website for NETFIX created using HTML and CSS to demonstrate fundamental frontend development skills. The website showcases a simple and clean design, providing a basic template that can be used for various purposes, such as a personal portfolio, a small business site, or an informational landing page.
 
 The demo includes several key sections commonly found in modern websites, such as a header with navigation links, a main content area to display information or services. The design focuses on clarity and ease of use, ensuring that content is presented in an organized and visually appealing manner.
