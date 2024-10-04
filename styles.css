@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Assets/Images/bg1.jpg");
+    height: 644px;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: auto;
+    position: relative;
+    top: 10;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 144px;
+    position: relative;
+    z-index: 10;
+}
+
+nav img :nth-child(1) {
+    height: 35px;
+}
+
+nav button {
+    width: 90px;
+    position: relative;
+    z-index: 10;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+button span {
+    display: flex;
+    position: relative;
+}
+
+.main .box {
+    height: 644vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.hero {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    color: white;
+    height: 84%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 700;
+    font-size: 32px;
+    gap: 200px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    gap: 25px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.separation {
+    background-color: gray;
+    height: 5px;
+}
+
+.btn-lan {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-red1 {
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+}
+
+input {
+    padding: 15px 225px 20px 18px;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+
+button {
+    background-color: red;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    position: relative;
+    margin: auto;
+    color: white;
+    align-items: center;
+    z-index: 10;
+}
+
+.first> div :first-child{
+    padding: 27px 0px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 42px;
+}
+.first> div :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+}
+.section secimg{
+    position: relative;
+    width: 30vw;
+    z-index: 10;
+}
+
+.secimg img{
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video{
+    position: absolute;
+    top: 91px;
+    width: 485px;
+    height: 291px;
+    right: 89px;
+    overflow: hidden;
+}
+
+.secimg3 img{
+    position: relative;
+    z-index: 10;
+}
+.secimg3 video{
+    position: absolute;
+    top: 49px;
+    width: 580px;
+    height: 224px;
+    right: 30px;
+    overflow: hidden;
+}
