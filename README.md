@@ -1,6 +1,6 @@
-NETFIX_CLONE_PROJECT
+# NETFIX_CLONE_PROJECT
 
-Overview
+## Overview
 
 This project is a demo website for NETFIX created using HTML and CSS to demonstrate fundamental frontend development skills. The website showcases a simple and clean design, providing a basic template that can be used for various purposes, such as a personal portfolio, a small business site, or an informational landing page.
 
@@ -8,7 +8,7 @@ The demo includes several key sections commonly found in modern websites, such a
 
 This demo website serves as a practical example of how HTML and CSS can be used to create a functional and aesthetically pleasing web page. It is a useful starting point for further customization and development, offering a solid foundation for more complex projects.
 
-Screenshots
+## Screenshots
 
 ![Netflix Clone - 1](https://github.com/user-attachments/assets/3fdbb951-7581-43b3-954d-1b63dc684afb)
 
